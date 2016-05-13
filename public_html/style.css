@@ -1,0 +1,139 @@
+* { margin:0; padding:0;}
+body { background:#5e5e5e; font-size:100%; line-height:1em; font-family:Georgia; color:#6d6d6d; text-align:center}
+
+
+/*in_line*/
+input, select, textarea { vertical-align:middle; font-weight:normal; font-family:Georgia; color:#6d6d6d; font-size:1em; font-weight:normal; padding-left:5px}
+img {border:0; vertical-align:top; text-align:left;}
+ul { list-style:none;}
+
+/*==================list====================*/
+ul{margin:0px; padding:0px; list-style:none}
+ul li { line-height:1.58em}
+ul li a{text-decoration:underline; color:#6d6d6d}
+ul li a:hover{ text-decoration:none}
+
+ul.list_2 {margin:0px; padding:0px; list-style:none}
+ul.list_2 li { line-height:1.58em; color:#b50202}
+ul.list_2 li a{text-decoration:underline; color:#b50202}
+ul.list_2 li a:hover{ text-decoration:none}
+
+/*==========================================*/
+
+a {text-decoration:underline; color:#ba0000}
+a:hover {text-decoration:none}
+
+a.link {text-decoration:underline; color:#6d6d6d}
+a.link:hover {text-decoration:none}
+
+h5 {font-size:1em; color:#6d6d6d; margin:0 0 20px 0; line-height:1.58em}
+h5.font_1 {font-size:1em; color:#ba0000; font-weight:normal; margin:0; line-height:1.58em}
+h5.font_2 {color:#ba0000; font-weight:normal}
+
+.font_1 {color:#ba0000}
+
+p {margin:0 0 19px 0}
+.p1 {margin:0 0 10px 0}
+
+.clear { clear:both;}
+
+.top_bg {background:url(images/top_bg.gif) repeat-x top #e6e6e6}
+
+/*header*/
+#header { height:428px; background: url("images/header_bg.jpg") no-repeat 0 0}
+#header img {margin-top:428px}
+
+.logo {position:absolute; margin:148px 0 0 480px}
+
+.slogan {position:absolute; margin:317px 0 0 0}
+
+/*content*/
+#content { font-size:0.75em; line-height:1.58em; background:#fff}
+.content_indent {padding:18px 25px 34px 19px}
+
+.title {margin-bottom:11px}
+.title2 {margin-bottom:16px}
+.img_righ {float:right; margin:0 20px 20px 0}
+.img_left {float:left; margin:0 20px 20px 0}
+.img_left2 {float:left; margin:5px 20px 15px 0}
+.img {margin-bottom:14px}
+
+.line_y {background:url(images/line_bg.gif) repeat-y right top}
+.line_x {background:url(images/line_bg.gif) repeat-x bottom}
+
+.line {background:url(images/line_bg.gif) repeat-x top; height:16px; margin:-4px -4px 0 -22px}
+
+/*footer*/
+#footer {background:url(images/footer_bg.gif) repeat-x top; width:100%; text-align:center; padding:23px 0 23px 0; font-size:0.75em; line-height:1.58em; color:#fff}
+#footer a {color:#fff; text-decoration:underline}
+#footer a:hover {text-decoration:none}
+
+/*================== index.html ==================*/
+#page1 #content .col_1 .indent { padding:13px 0 0 0}
+#page1 #content .col_2 .indent_1 { padding:14px 4px 28px 22px}
+#page1 #content .col_2 .indent_2 { padding:22px 4px 15px 22px}
+#page1 #content .col_2 .indent_3 { padding:22px 4px 15px 22px}
+
+/*================== index-1.html ==================*/
+#page2 #content .col_1 .indent_1 { padding:13px 20px 21px 0}
+#page2 #content .col_1 .indent_2 { padding:22px 22px 15px 0}
+#page2 #content .col_2 .indent { padding:14px 4px 28px 22px}
+
+/*================== index-2.html ==================*/
+#page3 #content .col_1 .indent { padding:14px 25px 37px 0}
+#page3 #content .col_2 .indent_1 { padding:14px 4px 33px 22px}
+#page3 #content .col_2 .indent_2 { padding:22px 10px 15px 22px}
+
+/*================== index-3.html ==================*/
+#page4 #content .col_1 .indent { padding:14px 25px 10px 0}
+#page4 #content .col_2 .indent { padding:14px 4px 20px 22px}
+#page4 #content .col_1 .indent_2 { padding:22px 25px 25px 0}
+#page4 #content .col_2 .indent_2 { padding:22px 4px 25px 22px}
+
+/*================== index-4.html ==================*/
+#page5 #content .col_1 .indent { padding:14px 25px 10px 0}
+#page5 #content .col_2 .indent { padding:14px 20px 17px 22px}
+#page5 #content .col_1 .indent_2 { padding:22px 30px 23px 0}
+#page5 #content .col_2 .indent_2 { padding:22px 25px 23px 22px}
+
+/*================== index-5.html ==================*/
+#page6 #content .col_1 .indent_1 { padding:14px 20px 40px 0}
+#page6 #content .col_1 .column_1 .indent { padding:22px 30px 25px 0}
+#page6 #content .col_1 .column_1 span {float:right; margin-right:20px}
+#page6 #content .col_1 .column_2 .indent { padding:22px 20px 25px 22px}
+#page6 #content .col_2 .indent { padding:14px 4px 18px 22px}
+
+input {width:218px; height:17px}
+.div_input {height:23px}
+textarea {width:218px; height:194px; overflow:auto; margin-bottom:10px; display:block}
+.div_links {text-align:right; word-spacing:37px; width:223px}
+
+/*================== index-6.html ==================*/
+#page7 #content .content_indent {padding:32px 45px 55px 19px}
+
+
+
+
+table.serv th, table.serv td {
+  font-size : 12px;
+  color:#6d6d6d
+ }
+
+table.serv td a{text-decoration:underline; color:#6d6d6d}
+table.serv td a:hover{ text-decoration:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
