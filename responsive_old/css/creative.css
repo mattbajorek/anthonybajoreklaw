@@ -1,0 +1,25 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    margin-top: 50px;
+    background: red;
+}
+
+.remove-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header-content {
+    text-align: center;
+}
